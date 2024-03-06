@@ -361,7 +361,9 @@ html {
     .navbar {
         display: none; /* Oculta la navbar en pantallas pequeñas */
     }
-
+    .contenido-info {
+        font-size: 14px; /* Reduce el tamaño de la fuente */
+    }
     .main, .about, .proyecto-container, .tecnologia-container {
         width: 95vw; /* Ajusta el ancho para pantallas pequeñas */
         grid-template-columns: 1fr; /* Cambia la disposición de las grillas para que sean verticales */
