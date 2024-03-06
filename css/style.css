@@ -294,7 +294,7 @@ h2 {
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    
+
     flex-direction: column;
     padding: 1em 0;
 }
@@ -329,12 +329,11 @@ h2 {
     justify-content: center; /* Ajustado para centrar verticalmente el contenido */
     padding: 1em; /* Espacio interno para la tarjeta */
     text-align: center; /* Asegura que el texto esté centrado */
-
 }
 
 .tecnologia-item i {
     margin-bottom: 20px; /* Espacio entre el icono y el texto */
-    color: rgba(0,0,0); /* Color de los iconos */
+    color: rgba(0, 0, 0); /* Color de los iconos */
 }
 
 .tecnologia-item a {
@@ -361,18 +360,32 @@ html {
     .navbar {
         display: none; /* Oculta la navbar en pantallas pequeñas */
     }
-    .contenido-info h2  {
+    .contenido-info {
+        margin-left: 15px;
+    }
+    .contenido-info h2 {
         font-size: 16px; /* Tamaño de fuente más pequeño */
+        margin-left: 10px;
     }
     .contenido-info h2 a {
         font-size: 16px; /* Tamaño de fuente más pequeño */
     }
-    .main, .about, .proyecto-container, .tecnologia-container {
+
+    .textoGuapo {
+        color: #fff;
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    .main,
+    .about,
+    .proyecto-container,
+    .tecnologia-container {
         width: 100vw; /* Ajusta el ancho para pantallas pequeñas */
         grid-template-columns: 1fr; /* Cambia la disposición de las grillas para que sean verticales */
     }
 
-    .main img, .about img {
+    .main img,
+    .about img {
         width: 50%; /* Reduce el tamaño de las imágenes */
         height: auto; /* Mantiene la proporción de las imágenes */
         margin-left: auto; /* Centra las imágenes en la pantalla */
@@ -381,7 +394,8 @@ html {
         margin-top: auto;
     }
 
-    .proyecto-grid, .tecnologia-grid {
+    .proyecto-grid,
+    .tecnologia-grid {
         grid-template-columns: 1fr; /* Ajusta las grillas de proyectos y tecnologías para una sola columna */
     }
 }
