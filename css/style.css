@@ -361,8 +361,11 @@ html {
     .navbar {
         display: none; /* Oculta la navbar en pantallas pequeñas */
     }
-    .contenido-info {
-        font-size: 14px; /* Reduce el tamaño de la fuente */
+    .contenido-info h2  {
+        font-size: 16px; /* Tamaño de fuente más pequeño */
+    }
+    .contenido-info h2 a {
+        font-size: 16px; /* Tamaño de fuente más pequeño */
     }
     .main, .about, .proyecto-container, .tecnologia-container {
         width: 95vw; /* Ajusta el ancho para pantallas pequeñas */
