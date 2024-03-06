@@ -368,7 +368,7 @@ html {
         font-size: 16px; /* Tamaño de fuente más pequeño */
     }
     .main, .about, .proyecto-container, .tecnologia-container {
-        width: 95vw; /* Ajusta el ancho para pantallas pequeñas */
+        width: 100vw; /* Ajusta el ancho para pantallas pequeñas */
         grid-template-columns: 1fr; /* Cambia la disposición de las grillas para que sean verticales */
     }
 
@@ -378,6 +378,7 @@ html {
         margin-left: auto; /* Centra las imágenes en la pantalla */
         margin-right: auto;
         display: block; /* Asegura que la imagen no mantenga configuraciones de flex */
+        margin-top: auto;
     }
 
     .proyecto-grid, .tecnologia-grid {
