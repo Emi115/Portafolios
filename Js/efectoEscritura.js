@@ -44,7 +44,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
         "Javascript",
         "Docker",
         "MongoDb",
-        "Betis",
+        "Cisco",
+        "Kali Linux",
+        "Access",
+        "Npm Build",
     ];
     const velocidadEscritura = 100;
     const pausaEntreTextos = 2000;
